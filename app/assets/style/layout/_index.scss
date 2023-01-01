@@ -1,5 +1,266 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.contact {
+
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &-icon {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $light;
+    border: 1px solid $dark;
+    border-radius: 100px;
+
+    &:hover {
+      background-color: $primary !important;
+    }
+  }
+}
+
+.avatar {
+  display: none;
+
+  @media (min-width: 844px) {
+    display: block;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 360px;
+    height: 496px;
+
+    background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/E5D246C8-245E-43D3-8059-635D7EB53C0D.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &-bg {
+      overflow: hidden;
+      position: absolute;
+      right: -120px;
+      top: -200px;
+      z-index: -1;
+      width: 720px;
+      height: 624px;
+      background-color: $secondary;
+    }
+  }
+}
+
+.eclipse {
+  display: none;
+
+  @media (min-width: 844px) {
+    display: block;
+    width: 600px;
+    height: 436px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+  }
+}
+
+.motto {
+  display: none;
+
+  @media (min-width: 844px) {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 144px;
+
+    &::after {
+      position: absolute;
+      bottom: -20px;
+      right: 40px;
+      content: "";
+      width: 16px;
+      height: 16px;
+      // background-color: $light;
+      border: 1px solid;
+      border-color: transparent transparent $light transparent;
+      border-radius: 0 0 0 24px;
+    }
+  }
+}
+
+.intro-mobile {
+  position: relative;
+  padding-top: 400px;
+
+  @media (min-width: 844px) {
+    display: none;
+  }
+}
+
+.avatar-mobile {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 280px;
+  height: 360px;
+
+  background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/E5D246C8-245E-43D3-8059-635D7EB53C0D.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-width: 844px) {
+    display: none;
+  }
+
+  &-bg {
+    overflow: hidden;
+    position: absolute;
+    right: -120px;
+    top: -200px;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+    background-color: $secondary;
+
+    @media (min-width: 844px) {
+      display: none;
+    }
+  }
+
+}
+
+
+.eclipse-mobile {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+
+  @media (min-width: 844px) {
+    display: none;
+  }
+}
+
+.motto-mobile {
+  display: block;
+  position: absolute;
+  left: 224px;
+  top: 160px;
+
+  &::after {
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    // background-color: $light;
+    border: 1px solid;
+    border-color: transparent transparent $light transparent;
+    border-radius: 0 0 0 24px;
+  }
+
+  @media (min-width: 844px) {
+    display: none;
+  }
+}
+
+
+.exp {
+  padding: 24px 40px 40px 40px;
+  border: 1px solid $dark;
+  border-radius: 24px;
+
+  &-item {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (min-width: 576px) {
+      p {
+        width: 70%;
+      }
+    }
+
+  }
+
+
+  &-title {
+    width: 120px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // padding: 4px 24px;
+    border: 1px solid $dark;
+    border-radius: 120px;
+  }
+}
+
+.space {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-item {
+    position: relative;
+
+    padding: 24px 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $dark;
+    border-radius: 24px;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      transform: translateX(10%);
+    }
+  }
+
+  &-link {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid $dark;
+    border-radius: 120px;
+    color: $dark;
+
+
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}
+
+
+.skill {
+
+  @media (min-width: 576px) {
+    &-content {
+      width: 50%;
+    }
+  }
+
+  &-card{
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 24px;
+  }
 }
