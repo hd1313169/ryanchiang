@@ -20556,10 +20556,15 @@ a {
 }
 
 .footer {
-  background-image: url(../../images/footer.png);
+  background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/footer.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
+  padding-top: 16px;
+}
+
+.footer:hover {
+  opacity: 80%;
 }
 
 .index__h1 {
