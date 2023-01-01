@@ -1,0 +1,51 @@
+.navbar-desktop {
+    position: fixed;
+    top: 80px;
+    left: 48px;
+    z-index: 1000;
+    width: 116px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $light;
+    border: 1px solid $dark;
+    border-radius: 24px;
+
+    padding: 8px 0;
+
+    &-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+
+        &:active {
+            background-color: #FEDB9A !important;
+            border-color: $dark !important;
+        }
+    }
+}
+
+.btn-outline-primary {
+
+    color: $dark;
+    border-color: $light;
+    background-color: $light;
+    border-radius: 24px;
+}
+
+.btn-check:checked+.btn-outline-primary,
+.btn-check:active+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show {
+    color: #000;
+    background-color: #FEDB9A;
+    border-color: $dark;
+}
