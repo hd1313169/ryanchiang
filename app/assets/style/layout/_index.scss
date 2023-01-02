@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
 
-    background-color: $light;
-    border: 1px solid $dark;
+    background-color: #ffffff;
+    border: 1px solid #181818;
     border-radius: 100px;
 
     &:hover {
@@ -82,9 +82,9 @@
       content: "";
       width: 16px;
       height: 16px;
-      // background-color: $light;
+      // background-color: #ffffff;
       border: 1px solid;
-      border-color: transparent transparent $light transparent;
+      border-color: transparent transparent #ffffff transparent;
       border-radius: 0 0 0 24px;
     }
   }
@@ -159,9 +159,9 @@
     content: "";
     width: 16px;
     height: 16px;
-    // background-color: $light;
+    // background-color: #ffffff;
     border: 1px solid;
-    border-color: transparent transparent $light transparent;
+    border-color: transparent transparent #ffffff transparent;
     border-radius: 0 0 0 24px;
   }
 
@@ -173,7 +173,7 @@
 
 .exp {
   padding: 24px 40px 40px 40px;
-  border: 1px solid $dark;
+  border: 1px solid #181818;
   border-radius: 24px;
 
   &-item {
@@ -197,7 +197,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid $dark;
+    border: 1px solid #181818;
     border-radius: 120px;
   }
 }
@@ -215,7 +215,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid $dark;
+    border: 1px solid #181818;
     border-radius: 24px;
     transition: all .5s ease-in-out;
 
@@ -232,14 +232,14 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid $dark;
+    border: 1px solid #181818;
     border-radius: 120px;
-    color: $dark;
+    color: #181818;
 
 
 
     &:hover {
-      color: $dark;
+      color: #181818;
     }
   }
 }
@@ -289,28 +289,28 @@
     justify-content: center;
     align-items: center;
 
-    background-color: $light;
-    border: 1px solid $dark;
+    background-color: #ffffff;
+    border: 1px solid #181818;
     border-radius: 120px;
-    color: $dark;
+    color: #181818;
 
     &-behance {
       &:hover {
-        color: $dark;
+        color: #181818;
         background-color: $primary-purple !important;
       }
     }
 
     &-github {
       &:hover {
-        color: $dark;
+        color: #181818;
         background-color: $primary !important;
       }
     }
 
     &-website {
       &:hover {
-        color: $dark;
+        color: #181818;
         background-color: $primary-green !important;
       }
     }
