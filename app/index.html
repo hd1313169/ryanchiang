@@ -6,11 +6,12 @@ current: index
 ---
 
 <!-- Scrollspy -->
-<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="40" class="scrollspy" tabindex="0"></div>
 <!-- 自介 -->
 <div id="intro"></div>
 <div class="container-fluid">
   <div class="row">
+
     <!-- mobile adjust -->
     <div class="col-12 g-0">
       <div class="intro-mobile">
@@ -21,11 +22,11 @@ current: index
         </div>
       </div>
     </div>
-    <div class="col-0 col-lg-1"></div>
-    <div class="col-12 col-lg-10">
-      <!-- mobile adjust end -->
+    <!-- mobile adjust end -->
 
-      <!-- 自介內容 -->
+    <!-- 自介內容 -->
+    <div class="col-12 col-lg-10 mx-auto">
+
       <div class="mt-md-40 border border-dark rounded-24 p-24 px-lg-80 py-lg-40 position-relative">
 
         <div class="intro mb-16">
@@ -54,7 +55,6 @@ current: index
       </div>
       <!-- 自介內容 END -->
     </div>
-    <div class="col-0 col-lg-1"></div>
   </div>
 </div>
 
@@ -136,13 +136,11 @@ current: index
   </div>
 </div>
 <!-- 經驗END -->
-
-<!-- 技能 -->
 <div id="skill"></div>
+<!-- 技能 -->
 <div class="container-fluid mt-20">
   <div class="row">
-    <div class="col-0 col-lg-1"></div>
-    <div class="col-12 col-lg-10">
+    <div class="col-12 col-lg-10 mx-auto">
       <div class="skill bg-dark rounded-24 p-24 p-lg-40">
         <h3 class="fs-24 text-light mb-20">技能</h3>
         <p class="skill-content text-light mb-40">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
@@ -150,12 +148,15 @@ current: index
 
         <!-- 技能卡片 -->
         <div class="row">
-          <div class="col-12 col-md-3">
+
+          <!-- UX / UI 設計 -->
+          <div class="col-12 col-sm-6 col-lg-3">
             <div class="mb-40 mb-md-0">
               <h4 class="fs-20 text-light mb-16">UX / UI 設計</h4>
-              <p class="fs-14 text-light mb-24">能夠使用主流 UI 設計軟體，具備元件製作、 UI Library 與模組化設計概念。注重使用體驗、視覺美感、可行性三者平衡。</p>
+              <p class="fs-14 text-light mb-lg-16" style="height: 84px;">能夠使用主流 UI 設計軟體，具備元件製作、 UI Library
+                與模組化設計概念。注重使用體驗、視覺美感、可行性三者平衡。</p>
               <div class="skill-card bg-primary-purple w-100 p-20">
-                <div><i class="fa-solid fa-layer-group d-block fs-32 text-end"></i></div>
+                <div><i class="fa-solid fa-layer-group d-block fs-28 text-end"></i></div>
                 <ul class="fw-bold p-8">
                   <li>Figma</li>
                   <li>Adobe XD</li>
@@ -170,61 +171,63 @@ current: index
             </div>
           </div>
 
-          <div class="col-12 col-md-3">
-            <div class="mb-40 mb-md-0">
-              <h4 class="fs-20 text-light mb-16">UX / UI 設計</h4>
-              <p class="fs-14 text-light mb-24">能夠使用主流 UI 設計軟體，具備元件製作、 UI Library 與模組化設計概念。注重使用體驗、視覺美感、可行性三者平衡。</p>
-              <div class="skill-card bg-primary-purple w-100 p-20">
-                <div><i class="fa-solid fa-layer-group d-block fs-32 text-end"></i></div>
+          <!-- 前端 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="mb-40 mb-lg-0">
+              <h4 class="fs-20 text-light mb-16">前端</h4>
+              <p class="fs-14 text-light mb-lg-16" style="height: 84px;">完整 HTML/CSS 前端開發能力，包含 RWD 響應式設計、Bootstrapt框架。具備
+                JavaScript 編寫能力，Codewar 4
+                級。</p>
+              <div class="skill-card bg-primary-green w-100 p-20">
+                <div><i class="fa-solid fa-code d-block fs-28 text-end"></i></div>
                 <ul class="fw-bold p-8">
-                  <li>Figma</li>
-                  <li>Adobe XD</li>
-                  <li>Sketch</li>
-                  <li>Zeplin</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Notion</li>
-                  <li>Trello</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>Bootstrap 5</li>
+                  <li>Tailwind</li>
+                  <li>GitHub</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-3">
+          <!-- 行銷 -->
+          <div class="col-12 col-sm-6 col-lg-3">
             <div class="mb-40 mb-md-0">
-              <h4 class="fs-20 text-light mb-16">UX / UI 設計</h4>
-              <p class="fs-14 text-light mb-24">能夠使用主流 UI 設計軟體，具備元件製作、 UI Library 與模組化設計概念。注重使用體驗、視覺美感、可行性三者平衡。</p>
-              <div class="skill-card bg-primary-purple w-100 p-20">
-                <div><i class="fa-solid fa-layer-group d-block fs-32 text-end"></i></div>
+              <h4 class="fs-20 text-light mb-16">行銷</h4>
+              <p class="fs-14 text-light mb-lg-16" style="height: 84px;">使用 Google Analytics 等流量蒐集統整、分析網站數據。擅長 Google
+                Ads、Facebook Ads 等 DSP
+                平台的廣告投放。</p>
+              <div class="skill-card bg-primary w-100 p-20">
+                <div><i class="fa-solid fa-chart-simple d-block fs-28 text-end"></i></div>
                 <ul class="fw-bold p-8">
-                  <li>Figma</li>
-                  <li>Adobe XD</li>
-                  <li>Sketch</li>
-                  <li>Zeplin</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Notion</li>
-                  <li>Trello</li>
+                  <li>Google Analytics (4)</li>
+                  <li>LINE Official Account</li>
+                  <li>Google Ads</li>
+                  <li>Facebook Ads</li>
+                  <li>Dcard Ads</li>
+                  <li>LINE Ads Platform</li>
+                  <li>Google Data Studio</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-3">
+          <!-- 語言 -->
+          <div class="col-12 col-sm-6 col-lg-3">
             <div class="mb-40 mb-md-0">
-              <h4 class="fs-20 text-light mb-16">UX / UI 設計</h4>
-              <p class="fs-14 text-light mb-24">能夠使用主流 UI 設計軟體，具備元件製作、 UI Library 與模組化設計概念。注重使用體驗、視覺美感、可行性三者平衡。</p>
-              <div class="skill-card bg-primary-purple w-100 p-20">
-                <div><i class="fa-solid fa-layer-group d-block fs-32 text-end"></i></div>
+              <h4 class="fs-20 text-light mb-16">語言</h4>
+              <p class="fs-14 text-light mb-lg-16" style="height: 84px;">具備基本英文聽、說、讀、寫能力。曾計畫赴日 ( 後因疫情取消 )
+                而學習日語，具備基礎聽、讀能力。</p>
+              <div class="skill-card bg-light w-100 p-20">
+                <div><i class="fa-solid fa-language d-block fs-28 text-end"></i></div>
                 <ul class="fw-bold p-8">
-                  <li>Figma</li>
-                  <li>Adobe XD</li>
-                  <li>Sketch</li>
-                  <li>Zeplin</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Notion</li>
-                  <li>Trello</li>
+                  <li>English</li>
+                  <li>TOEIC 790</li>
+                  <li>日本語</li>
+                  <li>JLPT N2</li>
                 </ul>
               </div>
             </div>
@@ -237,67 +240,127 @@ current: index
       </div>
 
     </div>
-
-    <div class="col-0 col-lg-1"></div>
   </div>
 </div>
 <!-- 技能END -->
 
+<!-- 作品集 -->
 <div id="collection"></div>
-Quisquam blanditiis numquam quasi, libero cumque dolore error sit alias ut officiis consequuntur praesentium aliquid
-vero odit consequatur quia modi consectetur! Nulla eaque pariatur fugit porro nam cum doloremque sequi!
-Ipsum asperiores enim quod impedit. Laborum maxime delectus incidunt est maiores, itaque beatae ipsam ipsa accusamus
-excepturi ullam mollitia dolorum aperiam provident quas porro, quos, recusandae harum aliquam fuga reiciendis!
-Harum, reiciendis? Magni quo non accusantium, fugit numquam eum sint ducimus exercitationem placeat quas sed earum
-repellat inventore iusto at ipsa rerum dolores aut molestias iste explicabo tempore saepe vitae.
-Corrupti aliquid consequuntur ab nobis, dicta architecto quo accusamus optio minima odit animi, earum sequi magnam,
-voluptatem nostrum culpa et suscipit. Perspiciatis cum non unde incidunt, porro neque necessitatibus nulla?
-Numquam dignissimos saepe minus adipisci tenetur fugiat, at consectetur vel repellat iusto repudiandae dolore cumque
-recusandae, quae delectus sit autem quis perspiciatis modi ea praesentium corporis! Quia dolorem amet eius.
-Id vitae praesentium esse nisi! Consectetur ratione debitis rerum dolorem corporis numquam accusamus asperiores aut
-nihil repellat harum voluptate, impedit, officia sapiente tempora quaerat quibusdam? Necessitatibus velit aliquid est
-earum?
-Doloremque deserunt non quod sit fuga voluptatibus, ipsa commodi beatae repellendus architecto quibusdam temporibus nam
-et voluptate? Voluptas quas, ea nisi adipisci consectetur ratione dolorum officiis laborum, minima maiores quam.
-Fugit repudiandae cum dolorum, corporis soluta reiciendis officia reprehenderit, quasi fuga est iste dicta placeat
-animi. Sed, voluptates, iste id libero nostrum excepturi temporibus expedita explicabo recusandae, dolor commodi
-voluptas?
-Corporis assumenda modi ut ex voluptas? Quia veniam accusantium velit pariatur, accusamus consequuntur debitis nostrum
-ratione, incidunt obcaecati beatae minima ad aspernatur ex. Nobis distinctio cum dolores rerum alias quisquam?
-Voluptates harum, cupiditate velit cumque sunt aliquid repudiandae iste ullam. Possimus dolores, reprehenderit, sapiente
-architecto in quasi culpa libero voluptate labore veniam placeat distinctio facere, vero blanditiis quam ex ipsa.
-Libero facere enim maiores perferendis quisquam nam vel praesentium ipsum modi accusamus tempora aspernatur distinctio
-ullam nihil vero culpa, quo saepe sequi sit, pariatur adipisci amet. Ipsa necessitatibus sed repudiandae!
-Tempora earum vitae consequatur porro libero architecto mollitia! Unde illum ipsam nemo, aspernatur ex esse iste
-recusandae deserunt distinctio nulla debitis quia laudantium labore? Amet facilis dolorem quos rerum ducimus?
-Deleniti repudiandae saepe asperiores laudantium officiis eligendi iste. Maiores molestiae aspernatur magni, quisquam
-eius repellat ratione accusamus cum asperiores magnam! Numquam debitis deleniti voluptates maxime dolore sint at?
-Architecto, vel?
-Alias officia veritatis voluptatibus consequuntur aperiam nisi dicta voluptates odio impedit neque optio molestias ut,
-rerum, repellendus, facere tempore omnis similique fugiat. Ipsum et quo obcaecati illo, tenetur praesentium facere.
-Numquam dignissimos saepe minus adipisci tenetur fugiat, at consectetur vel repellat iusto repudiandae dolore cumque
-recusandae, quae delectus sit autem quis perspiciatis modi ea praesentium corporis! Quia dolorem amet eius.
-Id vitae praesentium esse nisi! Consectetur ratione debitis rerum dolorem corporis numquam accusamus asperiores aut
-nihil repellat harum voluptate, impedit, officia sapiente tempora quaerat quibusdam? Necessitatibus velit aliquid est
-earum?
-Doloremque deserunt non quod sit fuga voluptatibus, ipsa commodi beatae repellendus architecto quibusdam temporibus nam
-et voluptate? Voluptas quas, ea nisi adipisci consectetur ratione dolorum officiis laborum, minima maiores quam.
-Fugit repudiandae cum dolorum, corporis soluta reiciendis officia reprehenderit, quasi fuga est iste dicta placeat
-animi. Sed, voluptates, iste id libero nostrum excepturi temporibus expedita explicabo recusandae, dolor commodi
-voluptas?
-Corporis assumenda modi ut ex voluptas? Quia veniam accusantium velit pariatur, accusamus consequuntur debitis nostrum
-ratione, incidunt obcaecati beatae minima ad aspernatur ex. Nobis distinctio cum dolores rerum alias quisquam?
-Voluptates harum, cupiditate velit cumque sunt aliquid repudiandae iste ullam. Possimus dolores, reprehenderit, sapiente
-architecto in quasi culpa libero voluptate labore veniam placeat distinctio facere, vero blanditiis quam ex ipsa.
-Libero facere enim maiores perferendis quisquam nam vel praesentium ipsum modi accusamus tempora aspernatur distinctio
-ullam nihil vero culpa, quo saepe sequi sit, pariatur adipisci amet. Ipsa necessitatibus sed repudiandae!
-Tempora earum vitae consequatur porro libero architecto mollitia! Unde illum ipsam nemo, aspernatur ex esse iste
-recusandae deserunt distinctio nulla debitis quia laudantium labore? Amet facilis dolorem quos rerum ducimus?
-Deleniti repudiandae saepe asperiores laudantium officiis eligendi iste. Maiores molestiae aspernatur magni, quisquam
-eius repellat ratione accusamus cum asperiores magnam! Numquam debitis deleniti voluptates maxime dolore sint at?
-Architecto, vel?
-Alias officia veritatis voluptatibus consequuntur aperiam nisi dicta voluptates odio impedit neque optio molestias ut,
-rerum, repellendus, facere tempore omnis similique fugiat. Ipsum et quo obcaecati illo, tenetur praesentium facere.
+<div class="container-fluid mt-40">
+  <div class="row">
+    <div class="col-12 col-lg-10 mx-auto">
+      <div class="p-lg-24">
+        <div class="border-bottom border-dark pb-8 mb-40">
+          <h3 class="fs-24">作品集</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-0 col-lg-1"></div>
+    <!-- 作品一 -->
+    <div class="col-12 col-lg-5">
+      <div class="collection-item mb-40">
+        <div class="collection-cover mb-8"
+          style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project01_mobile.png);">
+        </div>
+        <h4 class="fs-16 text-end mb-16">AOBA Badminton 青葉羽球 線上羽球場地租借平台</h4>
+        <div class="collection-btn w-100">
+          <a href="https://www.behance.net/gallery/159866983/AOBA-Badminton" target="_blank"
+            class="collection-link me-8"><i class="fa-brands fa-behance"></i></a>
+          <a href="https://github.com/hd1313169/aobaBadminton" target="_blank" class="collection-link me-8"><i
+              class="fa-brands fa-github-alt"></i></a>
+          <a href="https://hd1313169.github.io/aobaBadminton/" target="_blank" class="collection-link"><i
+              class="fa-solid fa-desktop"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- 作品一END -->
+    <!-- 作品二 -->
+    <div class="col-12 col-lg-5">
+      <div class="collection-item mb-40">
+        <div class="collection-cover mb-8"
+          style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project02_mobile.png);">
+        </div>
+        <h4 class="fs-16 text-end mb-16">Hacademy 嗨課 線上知識分享平台</h4>
+        <div class="collection-btn w-100">
+          <a href="https://github.com/hd1313169" target="_blank" class="collection-link me-8"><i
+              class="fa-brands fa-github-alt"></i></a>
+          <a href="https://hd1313169.github.io/hacademy/" target="_blank" class="collection-link"><i
+              class="fa-solid fa-desktop"></i></a>
+        </div>
+      </div>
+      <!-- 作品二END -->
+    </div>
+    <div class="col-0 col-lg-1"></div>
+
+    <div class="col-0 col-lg-1"></div>
+    <!-- 作品三 -->
+    <div class="col-12 col-lg-5">
+      <div class="collection-item mb-40">
+        <div class="collection-cover mb-8"
+          style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project03_mobile.png);">
+        </div>
+        <h4 class="fs-16 text-end mb-16">AOBA Badminton 青葉羽球 線上羽球場地租借平台</h4>
+        <div class="collection-btn w-100">
+          <a href="https://github.com/hd1313169/hexschool_mission07_nftMarketplace" target="_blank"
+            class="collection-link me-8"><i class="fa-solid fa-desktop"></i></a>
+          <a href="https://hd1313169.github.io/hexschool_mission07_nftMarketplace/" target="_blank" class="collection-link"><i
+              class="fa-brands fa-github-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- 作品三END -->
+    <!-- 作品四 -->
+    <div class="col-12 col-lg-5">
+      <div class="collection-item mb-40">
+        <div class="collection-cover mb-8"
+          style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project04_mobile.png);">
+        </div>
+        <h4 class="fs-16 text-end mb-16">Hacademy 嗨課 線上知識分享平台</h4>
+        <div class="collection-btn w-100">
+          <a href="https://github.com/hd1313169" target="_blank" class="collection-link me-8"><i
+              class="fa-brands fa-behance"></i></a>
+        </div>
+      </div>
+      <!-- 作品四END -->
+    </div>
+    <div class="col-0 col-lg-1"></div>
+  </div>
+
+  <div class="col-0 col-lg-1"></div>
+  <!-- 作品五 -->
+  <div class="col-12 col-lg-5">
+    <div class="collection-item mb-40">
+      <div class="collection-cover mb-8"
+        style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project03_mobile.png);">
+      </div>
+      <h4 class="fs-16 text-end mb-16">AOBA Badminton 青葉羽球 線上羽球場地租借平台</h4>
+      <div class="collection-btn w-100">
+        <a href="https://github.com/hd1313169/hexschool_mission07_nftMarketplace" target="_blank"
+          class="collection-link me-8"><i class="fa-solid fa-desktop"></i></a>
+        <a href="https://hd1313169.github.io/hexschool_mission07_nftMarketplace/" target="_blank" class="collection-link"><i
+            class="fa-brands fa-github-alt"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- 作品五END -->
+  <!-- 作品六 -->
+  <div class="col-12 col-lg-5">
+    <div class="collection-item mb-40">
+      <div class="collection-cover mb-8"
+        style="background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/project04_mobile.png);">
+      </div>
+      <h4 class="fs-16 text-end mb-16">Hacademy 嗨課 線上知識分享平台</h4>
+      <div class="collection-btn w-100">
+        <a href="https://github.com/hd1313169" target="_blank" class="collection-link me-8"><i
+            class="fa-brands fa-behance"></i></a>
+      </div>
+    </div>
+    <!-- 作品六END -->
+  </div>
+  <div class="col-0 col-lg-1"></div>
+</div>
 
 
 </div>
