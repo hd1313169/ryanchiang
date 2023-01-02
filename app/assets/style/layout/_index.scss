@@ -293,11 +293,24 @@
     border-radius: 120px;
     color: $dark;
 
-
-
-    &:hover {
-      color: $dark;
+    &-behance{
+      &:hover {
+        color: $dark;
+        background-color: $primary-purple !important;
+      }
     }
+    &-github{
+      &:hover {
+        color: $dark;
+        background-color: $primary !important;
+      }
+    }
+    &-website{
+      &:hover {
+        color: $dark;
+        background-color: $primary-green !important;
+      }
+    }
+    
   }
-  
 }
