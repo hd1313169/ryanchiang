@@ -20579,7 +20579,11 @@ a {
   color: #181818;
 }
 
-@media (min-width: 576px) {
+.skill-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   .skill-content {
     width: 50%;
   }
