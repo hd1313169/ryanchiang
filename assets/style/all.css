@@ -20635,8 +20635,19 @@ a {
   color: #181818;
 }
 
-.collection-link:hover {
+.collection-link-behance:hover {
   color: #181818;
+  background-color: #C1BEFA !important;
+}
+
+.collection-link-github:hover {
+  color: #181818;
+  background-color: #FEDB9A !important;
+}
+
+.collection-link-website:hover {
+  color: #181818;
+  background-color: #7EBB94 !important;
 }
 
 /*# sourceMappingURL=all.css.map */
