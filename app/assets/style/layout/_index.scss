@@ -246,41 +246,42 @@
 
 
 .skill {
+  &-content {
+    width: 100%;
 
-  @media (min-width: 576px) {
-    &-content {
+    @media (min-width: 768px) {
       width: 50%;
     }
   }
 
-  &-card{
+  &-card {
     height: 360px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     border-radius: 24px;
   }
 }
 
-.collection{
+.collection {
 
-  &-cover{
+  &-cover {
     width: 100%;
     height: 320px;
-    
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  &-btn{
+  &-btn {
     display: flex;
     justify-content: end;
   }
 
-  &-link{
+  &-link {
     width: 40px;
     height: 40px;
 
@@ -293,24 +294,26 @@
     border-radius: 120px;
     color: $dark;
 
-    &-behance{
+    &-behance {
       &:hover {
         color: $dark;
         background-color: $primary-purple !important;
       }
     }
-    &-github{
+
+    &-github {
       &:hover {
         color: $dark;
         background-color: $primary !important;
       }
     }
-    &-website{
+
+    &-website {
       &:hover {
         color: $dark;
         background-color: $primary-green !important;
       }
     }
-    
+
   }
 }
