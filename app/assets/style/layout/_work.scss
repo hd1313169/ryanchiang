@@ -1,0 +1,43 @@
+.list-group{
+  flex-direction: row;  
+  flex-wrap: wrap;
+  @media (min-width: 992px) {
+    flex-direction: column;  
+  }
+}
+
+.list-group-item{
+  background-color: transparent !important;
+  &:hover{
+    a{
+      color: $primary !important;
+    }
+  }
+}
+.list-group-item.active {
+  z-index: 2;
+  color: $primary !important;
+}
+
+.list-group-item.disabled{
+  opacity: .6;
+}
+
+.work{
+
+  &-cover{
+    width: 450px;
+    height: 254px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &-display{
+    width: 100%;
+    // min-height: 4800px;
+    background-size: contain;
+    background-position:  top;
+    background-repeat: no-repeat;
+  }
+}

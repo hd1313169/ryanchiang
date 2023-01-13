@@ -1,0 +1,69 @@
+.about-img {
+  width: 100%;
+  height: 333px;
+
+  background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/E5D246C8-245E-43D3-8059-635D7EB53C0D.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.skill {
+  &-content {
+    text-align: center;
+  }
+
+  &-icon {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.exp {
+
+  &-mark {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 16px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  // -webkit-justify-content: center;
+  // justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

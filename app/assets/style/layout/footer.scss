@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+   display: flex;
+   justify-content: flex-end; 
+
+   &-link{
+    text-align: center;
+    color: #181818 !important;
+
+    &:hover{
+        color: #FEDB9A !important;
+    }
+   }
+}
