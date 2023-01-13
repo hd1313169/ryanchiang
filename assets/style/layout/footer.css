@@ -1,2 +1,20 @@
+.footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-link {
+  text-align: center;
+  color: #181818 !important;
+}
+
+.footer-link:hover {
+  color: #FEDB9A !important;
+}
 
 /*# sourceMappingURL=footer.css.map */
