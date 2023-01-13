@@ -29,6 +29,7 @@
 .work {
 
   &-item {
+    flex-wrap: wrap;
     &:hover {
       .work-cover {
         width: calc(450px * 1.1);
