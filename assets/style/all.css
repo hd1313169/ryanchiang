@@ -20808,7 +20808,7 @@ a {
 .about-img {
   width: 100%;
   height: 333px;
-  background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/E5D246C8-245E-43D3-8059-635D7EB53C0D.png);
+  background-image: url(https://raw.githubusercontent.com/hd1313169/ryanchiang/main/app/assets/images/about-img.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20907,10 +20907,15 @@ a {
   opacity: .6;
 }
 
+.work-item:hover .work-cover {
+  width: calc(450px * 1.1);
+  height: calc(254px * 1.1);
+}
+
 .work-cover {
   width: 450px;
   height: 254px;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
