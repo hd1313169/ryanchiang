@@ -20615,9 +20615,16 @@ a {
   text-decoration: none;
 }
 
+.navbar {
+  z-index: 9999;
+}
+
+.bg-hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .bg-hover:hover {
-  background-color: #ffffff;
-  opacity: .8;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-toggler:focus {
