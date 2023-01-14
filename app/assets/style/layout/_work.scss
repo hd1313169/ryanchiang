@@ -53,4 +53,15 @@
     background-position: top;
     background-repeat: no-repeat;
   }
+
+  &-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
