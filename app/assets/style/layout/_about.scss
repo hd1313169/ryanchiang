@@ -8,6 +8,12 @@
   background-repeat: no-repeat;
 }
 
+.mail-link{
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
 .skill {
   &-content {
     text-align: center;
@@ -22,7 +28,7 @@
 }
 
 .exp {
-
+ 
   &-mark {
     width: 48px;
     height: 48px;
@@ -34,6 +40,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &-content{
+    width: 96%;
+    // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 }
 
