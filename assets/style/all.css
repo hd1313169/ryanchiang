@@ -20817,7 +20817,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.mail-link:hover {
+.resume-link:hover {
   text-decoration: underline;
 }
 
@@ -20918,6 +20918,14 @@ a {
   opacity: .6;
 }
 
+.work-cover {
+  width: 450px;
+  height: 254px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .work-item {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -20925,14 +20933,6 @@ a {
 
 .work-item:hover .work-cover {
   background-size: 110%;
-}
-
-.work-cover {
-  width: 450px;
-  height: 254px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .work-display {
