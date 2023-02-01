@@ -28,6 +28,12 @@
 
 .work {
 
+  &-sidebar{
+    @media (min-width: 992px) {
+      position: fixed;
+    }
+  }
+  
   &-cover {
     width: 450px;
     height: 254px;
