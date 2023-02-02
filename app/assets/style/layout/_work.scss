@@ -65,10 +65,28 @@
     align-items: center;
     text-align: right;
 
-    // &:hover{
-    //   a{
-    //     text-decoration: underline;
-    //   }
-    // }
+    a{
+      &:hover{
+        a{
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+
+  &-proto{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+      background: #FEDB9A;
+    }
   }
 }
