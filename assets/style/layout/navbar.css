@@ -17,4 +17,8 @@
   text-decoration: underline;
 }
 
+.logo:hover {
+  color: #FEDB9A;
+}
+
 /*# sourceMappingURL=navbar.css.map */
