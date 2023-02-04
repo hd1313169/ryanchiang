@@ -18,13 +18,19 @@
   background-repeat: no-repeat;
 }
 
+.title{
+  &-des{
+    color: #4C4C4C !important;
+
+  }
+}
 .cta {
   display: block;
-  width: 240px;
+  width: 200px;
 
   &-icon {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
 
     display: flex;
     justify-content: center;
@@ -39,17 +45,21 @@
   }
 
   &-content {
+    font-weight: normal !important;
     margin-left: 8px;
     transition: all .5s ease-in-out;
   }
 
   &:hover {
     .cta-icon {
-      transform: translateX(calc(240px - 48px - 16px));
+      background-color: #181818 !important;
+      color: #ffffff !important;
+      transform: translateX(calc(200px - 36px - 8px));
     }
 
     .cta-content {
-      transform: translateX(-32px);
+      color: #181818 !important;
+      transform: translateX(-16px);
     }
   }
 }

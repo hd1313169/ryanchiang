@@ -20,13 +20,14 @@
 .nav-link{
 
   &:hover{
+    // letter-spacing: .2px;
     text-decoration: underline;
   }
 }
 
 .logo{
   &:hover{
-    color: #FEDB9A;
+    font-weight: bold;;
   }
 }
 // .list-group-item.active {
