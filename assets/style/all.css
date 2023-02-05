@@ -20709,6 +20709,10 @@ a {
   width: 200px;
 }
 
+.cta-bg {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 .cta-icon {
   width: 32px;
   height: 32px;
@@ -20721,9 +20725,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #181818;
   border-radius: 120px;
-  color: #181818;
+  color: #1d1d1d;
   -webkit-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
