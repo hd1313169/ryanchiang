@@ -28,6 +28,9 @@
   display: block;
   width: 200px;
 
+  &-bg{
+    background-color: rgba(255, 255, 255, .6);
+  }
   &-icon {
     width: 32px;
     height: 32px;
@@ -36,9 +39,9 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid #181818;
+    // border: 1px solid #181818;
     border-radius: 120px;
-    color: #181818;
+    color: #1d1d1d;
 
     transition: all .5s ease-in-out;
     z-index: 997;
