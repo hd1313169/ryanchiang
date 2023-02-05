@@ -20643,8 +20643,9 @@ a {
   height: 72px;
   right: 24px;
   bottom: 60px;
-  border: 1px solid #000;
   border-radius: 48px;
+  -webkit-box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 16px 1px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20710,7 +20711,9 @@ a {
 }
 
 .cta-bg {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .cta-icon {
@@ -21006,6 +21009,8 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 16px;
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
