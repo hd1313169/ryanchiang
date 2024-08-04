@@ -1,3 +1,93 @@
-.index-title {
-  font-size: 100px;
+.intro{
+  display: block;
+  max-width: 304px;
+  text-align: center;
+}
+
+.selfie-half{
+  display: block;
+  max-width: 160px;
+  text-align: center;
+
+}
+
+.selfie{
+  width: 132px;
+  height: 360px;
+  background-image: url(../images/img-selfie.svg);
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.milestone-item{
+  width: 120px;
+  height: 120px;
+
+  margin-right: 16px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid $border;
+  border-radius: 12px;
+
+  p{
+    text-align: center;
+  }
+}
+
+.work-item{
+  position: relative;
+  max-width: 400px;
+  max-height: 400px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: $secondary;
+  border-radius: 12px;
+  padding: 16px;
+
+  img{
+    display: block;
+    padding: 80px 32px;
+    border-radius: 4px;
+  }
+
+  &-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: $light;
+    border-radius: 12px;
+  }
+}
+
+.exp-item{
+  position: relative;
+  width: 100%;
+  height: 280px;
+
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary;
+  border-radius: 12px;
+}
+
+.exp-img{
+  position: absolute;
+  top: -24px;
+  right: 0;
 }

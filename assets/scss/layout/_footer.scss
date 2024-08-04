@@ -1,4 +1,11 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer-item {
+  margin-right: 16px;
+  img{
+    border-radius: 1000px;
+    text-align: center;
+  }
+  
+  &:last-child{
+    margin-right: 0;
+  }
 }
